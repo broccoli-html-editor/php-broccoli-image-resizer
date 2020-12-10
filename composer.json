@@ -1,0 +1,34 @@
+{
+    "name": "broccoli-html-editor/broccoli-image-resizer",
+    "description": "",
+    "keywords": ["broccoli-html-editor"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomoya Koyanagi",
+            "email": "tomk79@gmail.com"
+        }
+    ],
+    "scripts":{
+        "test": [
+            "php ./vendor/phpunit/phpunit/phpunit"
+        ]
+    } ,
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "repositories": [
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.1.0"
+    },
+    "autoload": {
+        "files": [
+            "php/main.php"
+        ]
+    }
+}
